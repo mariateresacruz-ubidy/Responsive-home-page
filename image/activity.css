@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+}
+
+.container {
+  background-color: #eaa272;
+  width: 100%;
+  position: relative;
+}
+
+.container .color-wrapper,
+.banner-wrapper {
+  width: 50%;
+  height: 560px;
+}
+
+.banner-wrapper {
+  background-image: url(.//banner.jpeg);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.container .text-wrapper {
+  width: 450px;
+  height: 200px;
+  position: absolute;
+  top: 130px;
+  left: 280px;
+  color: white;
+}
+
+.container .images-wrapper {
+  background-color: white;
+  width: 550px;
+  height: 190px;
+  position: absolute;
+  top: 430px;
+  left: 240px;
+  display: flex;
+  padding-top: 24px;
+  border-radius: 24px;
+  justify-content: center;
+}
+
+.men-wrapper,
+.women-wrapper,
+.kids-wrapper {
+  width: 160px;
+  height: 160px;
+}
+
+.men-label,
+.women-label,
+.kids-label {
+  text-align: center;
+  font: bold 12px Arial;
+  margin-top: 1em;
+}
+
+.men-wrapper,
+.women-wrapper {
+  margin-right: 1em;
+}
+.first-text {
+  font: 25px Arial;
+}
+
+.second-text {
+  font: bold 35px Arial;
+  line-height: 1.5em;
+}
+
+.third-text {
+  font: 15px Arial;
+}
+
+.shop-button {
+  background-color: #ef6b68;
+  color: white;
+  cursor: pointer;
+  font-family: Arial;
+  border: 0;
+  padding: 0.5em 1.5em;
+  margin-top: 2.5em;
+  border-radius: 0.3em;
+}
+
+@media only screen and (max-width: 768px) {
+  .container .color-wrapper,
+  .banner-wrapper {
+    width: 500px;
+    height: 480px;
+  }
+
+  .container .images-wrapper {
+    background-color: white;
+    width: 25em;
+    height: 10em;
+    position: absolute;
+    top: 25em;
+    left: 3em;
+    display: flex;
+    padding-top: 1.5em;
+    border-radius: 0.5em;
+    justify-content: center;
+  }
+
+  .men-wrapper,
+  .women-wrapper,
+  .kids-wrapper {
+    width: 7em;
+    height: 7em;
+  }
+
+  .container .text-wrapper {
+    width: 25em;
+    height: 11em;
+    position: absolute;
+    top: 6em;
+    left: 10em;
+    color: white;
+  }
+
+  .first-text {
+    font: 18px Arial;
+  }
+
+  .second-text {
+    font: bold 25px Arial;
+    line-height: 1.5em;
+  }
+
+  .third-text {
+    font: 12px Arial;
+  }
+
+  .shop-button {
+    background-color: #f66867;
+    color: white;
+    cursor: pointer;
+    font-family: Arial;
+    padding: 0.5em 1em;
+    margin-top: 2.5em;
+    border-radius: 0.3em;
+  }
+}
